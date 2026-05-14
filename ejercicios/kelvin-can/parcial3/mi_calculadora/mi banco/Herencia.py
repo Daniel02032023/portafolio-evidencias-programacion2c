@@ -16,5 +16,7 @@ class Canario(Ave):
 
 canario = Canario("amarillo","fulanito")
 print(canario.color)
+canario.volar()
+print(canario.color)
 
 
