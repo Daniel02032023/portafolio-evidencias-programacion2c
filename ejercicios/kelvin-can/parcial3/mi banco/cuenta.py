@@ -1,3 +1,4 @@
+
 class cuenta:
     # Atributos: cliente, cuenta, saldo
     """Inicializa una nueva instancia de la clase cuenta.
@@ -35,14 +36,4 @@ class cuenta:
             self.saldo -= cantidad
             return True
         return False
-    def main():
-        #creacion de objeto
-        mi_cuenta = cuenta("Ana Perez", "123456-7890", 1000.00)
-        print(f"Bienvenido/a {mi_cuenta.cliente}")
-        print(f"Saldo actual: ${mi_cuenta.saldo}")
-      
-
-    if __name__ == '__main__':
-        #El bloque if __name__ == '__main__': asegura que main() solo se ejecute
-        #Si el archivo se lanza directamente, y no se importa como módulo.
-        main()
+    
